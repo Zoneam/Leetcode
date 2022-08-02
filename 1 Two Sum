@@ -5,7 +5,6 @@
  */
 var twoSum = function(numbers, target) {
   let control;
-  let tuple = [];
   let numArr = Array.from(numbers)
 
   for(let i = 0; i<numbers.length;i++){
